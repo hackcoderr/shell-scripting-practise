@@ -1,0 +1,13 @@
+#!bin/bash
+echo -e "Please enter the filename which you want: "
+read -r file
+touch /root/shell-scripting/$file.sh
+echo '#!bin/bash' >> /root/shell-scripting/$file.sh
+echo '#Purpose:' >> /root/shell-scripting/$file.sh
+echo '#Version:' >> /root/shell-scripting/$file.sh
+echo '#Created date: ' `date` >> /root/shell-scripting/$file.sh
+echo '# Modified date:' >> /root/shell-scripting/$file.sh
+echo '# Author : Sachin Kumar' >> /root/shell-scripting/$file.sh
+echo '# START #' >> /root/shell-scripting/$file.sh
+echo '# END #' >> /root/shell-scripting/$file.sh
+
