@@ -19,4 +19,16 @@ echo "the result of a%b: $(($a%$b))"
 
 echo "Completed successfully"
 
+
+echo "--------------------By Expressions----------------------------"
+
+echo "the result of expr a+b: `expr $a + $b`"
+echo "the result of expr a-b: `expr $a - $b`"
+echo "the result of expr a*b: `expr $a \* $b`"
+echo "the result of expr a/b: `expr $a / $b`"
+echo "the result of expr a%b: `expr $a % $b`"
+
+
+echo "Completed successfully"
+
 # END #
