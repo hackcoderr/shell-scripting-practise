@@ -1,5 +1,5 @@
 #!bin/bash
-echo -e "Please enter the filename which you want: "
+echo -e "Please enter the filename which you want: \c"
 read -r file
 touch /root/shell-scripting/$file.sh
 echo '#!bin/bash' >> /root/shell-scripting/$file.sh
